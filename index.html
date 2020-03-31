@@ -21,7 +21,8 @@ partes.forEach(function (parte) {
 var url = data['src'];
 
      $(document).ready(function () {
-        document.getElementsByClassName('custom-url').attr('href', "https://go.perfectpay.com.br/PPU38CK51AG?split=12&src=" + url);
+	     
+        $('.custom-url').attr('href', "https://go.perfectpay.com.br/PPU38CK51AG?" + query);
 });
 
 
